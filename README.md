@@ -10,6 +10,10 @@ The application is a Node.js project that interacts with the HubSpot API to:
 
 ---
 ## HubSpot CRM Records List
+<<<<<<< HEAD
+=======
+
+>>>>>>> 48bc958ff7486a41b28ef01f1022b95a52c1ef11
 https://app-na3.hubspot.com/contacts/343026064/contacts/list/view/all
 
 ## Features

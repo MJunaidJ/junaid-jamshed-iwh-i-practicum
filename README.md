@@ -9,6 +9,8 @@ The application is a Node.js project that interacts with the HubSpot API to:
 - Persist data using a **Private App** token
 
 ---
+## HubSpot CRM Records List
+https://app-na3.hubspot.com/contacts/343026064/contacts/list/view/all
 
 ## Features
 

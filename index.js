@@ -13,7 +13,7 @@ app.set('view engine', 'pug');
 // HubSpot config
 const HUBSPOT_TOKEN = process.env.PRIVATE_APP_TOKEN;
 const HUBSPOT_BASE = 'https://api.hubapi.com';
-const CONTACT_PROPERTIES = ['firstname','genre','rating'];
+const CONTACT_PROPERTIES = ['firstname', 'email', 'genre', 'rating'];
 
 // GET homepage - list contacts
 app.get('/', async (req, res) => {

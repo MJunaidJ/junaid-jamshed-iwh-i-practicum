@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 Add New Contact
+    a(href="/") Return to homepage
+    form(action="/update-cobj", method="POST")
+      label(for="firstname") Name:
+      input(type="text", name="firstname", required)
+      br
+      label(for="email") Email:
+      input(type="email", name="email", required)
+      br
+      label(for="genre") Genre:
+      input(type="text", name="genre", required)
+      br
+      label(for="rating") Rating:
+      input(type="number", name="rating", required)
+      br
+      button(type="submit") Submit

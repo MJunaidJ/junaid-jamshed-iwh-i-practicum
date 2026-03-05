@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title HubSpot Contacts
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    h1 HubSpot Contacts
+    a(href="/update-cobj") Add to this table
+    table(border="1")
+      tr
+        th Name
+        th Genre
+        th Rating
+      each contact in contacts
+        tr
+          td= contact.firstname
+          td= contact.genre
+          td= contact.rating

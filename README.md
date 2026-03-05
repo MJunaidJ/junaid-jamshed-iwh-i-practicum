@@ -9,12 +9,15 @@ The application is a Node.js project that interacts with the HubSpot API to:
 - Persist data using a **Private App** token
 
 ---
-## HubSpot CRM Records List
-<<<<<<< HEAD
-=======
 
->>>>>>> 48bc958ff7486a41b28ef01f1022b95a52c1ef11
-https://app-na3.hubspot.com/contacts/343026064/contacts/list/view/all
+## HubSpot CRM Records List
+For this practicum, custom objects were not available, so the **Contact object** was used instead.  
+Custom properties `Genre` and `Rating` were added to the Contact object, and sample records were created.  
+
+You can view the records here:  
+[HubSpot Contacts List](https://app-na3.hubspot.com/contacts/343026064/contacts/list/view/all)
+
+---
 
 ## Features
 
@@ -27,3 +30,9 @@ https://app-na3.hubspot.com/contacts/343026064/contacts/list/view/all
 ---
 
 ## Folder Structure
+
+---
+
+## Notes
+- Private App token is used locally and **not included in the repository** for security.
+- All records are managed through the HubSpot API using the Contact object.
